@@ -8,6 +8,10 @@ app.config['TEMPLATES_AUTO_RELOAD']= True
 def index():
     return render_template("index.html")
 
+@app.route("/data")
+def data():
+    return render_template("data.html")
+
 
 
 if __name__ == "__main__":

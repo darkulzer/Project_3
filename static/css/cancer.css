@@ -27,7 +27,7 @@ h3 {
 }
 body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3ZfvD2WdQ94wgnyONcILJlAOJtBGFGfJFyg&usqp=CAU);
-  background-size: 10%;
+  background-size: 20%;
   background-repeat: repeat;
 }
 img {
@@ -50,7 +50,7 @@ table.dataframe {
 }
 iframe {
   position: relative;
-  left: 50%;
+  left: 60%;
   transform: translateX(-50%);
   width: 70vw;
   height: 80vh;
