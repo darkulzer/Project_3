@@ -12,6 +12,10 @@ def index():
 def data():
     return render_template("data.html")
 
+@app.route("/tableau")
+def data():
+    return render_template("tableau.html")
+
 
 
 if __name__ == "__main__":
