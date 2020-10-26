@@ -13,7 +13,7 @@ def data():
     return render_template("data.html")
 
 @app.route("/tableau")
-def data():
+def tableau():
     return render_template("tableau.html")
 
 
