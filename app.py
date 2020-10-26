@@ -16,6 +16,10 @@ def data():
 def tableau():
     return render_template("tableau.html")
 
+@app.route("/jupyterdata")
+def jupyterdata():
+    return render_template("jupyterdata.html")
+
 
 
 
