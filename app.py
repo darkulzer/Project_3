@@ -20,6 +20,10 @@ def tableau():
 def jupyterdata():
     return render_template("jupyterdata.html")
 
+@app.route("/story")
+def story():
+    return render_template("story.html")
+
 
 
 
